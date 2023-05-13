@@ -1,0 +1,67 @@
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para la barra de búsqueda */
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 6px;
+    width: 300px;
+  }
+  
+  .search-bar input[type="submit"] {
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilos para el mensaje de no se encontraron resultados */
+  .no-results {
+    margin-top: 20px;
+    color: red;
+  }
+  /* Estilos para el enlace de volver */
+.back-link {
+    margin-top: 20px;
+  }
+  
+  .back-link a {
+    padding: 6px 12px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ddd;
+  }
+  
+  .back-link a:hover {
+    background-color: #ddd;
+  }
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+   
+  
